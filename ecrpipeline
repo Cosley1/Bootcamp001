@@ -7,7 +7,7 @@ pipeline {
     environment {
         registryCredential = 'ecr:us-east-2:awslogin'
         appRegistry = "080953309794.dkr.ecr.us-east-2.amazonaws.com/gtiit"       
-        vprofileRegistry = "https://80953309794.dkr.ecr.us-east-2.amazonaws.com"   
+        vprofileRegistry = "https://080953309794.dkr.ecr.us-east-2.amazonaws.com"   
     }
     stages {
         stage('Fetch code') {
